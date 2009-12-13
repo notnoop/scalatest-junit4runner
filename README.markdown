@@ -1,16 +1,16 @@
-scalatest-junit4runner is a "JUnit4 Runner":http://www.junit.org/ for "ScalaTest":http://www.artima.com/scalatest/
+scalatest-junit4runner is a [JUnit4 Runner](http://www.junit.org/) for [ScalaTest](http://www.artima.com/scalatest/)
 
 It lets you run ScalaTests from both Maven and your JUnit4 enabled IDE by annotating your tests as shown in the example below
 
-Install
+1. Install
 ----------------
 
-    git clone git://github.com/teigen/scalatest-junit4runner.git
+    git clone git://github.com/notnoop/scalatest-junit4runner.git
     cd scalatest-junit4runner
     mvn clean install
 
 
-Add as a dependency
+2. Add as a dependency
 ---------------------------
 
     <pre>
@@ -22,7 +22,7 @@ Add as a dependency
     </dependency>	
     </pre>
 
-Sample Use
+3. Use
 ----------------------
 
     import com.jteigen.scalatest.JUnit4Runner
