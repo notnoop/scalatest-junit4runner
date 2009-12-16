@@ -13,14 +13,12 @@ It lets you run ScalaTests from both Maven and your JUnit4 enabled IDE by annota
 2. Add as a dependency
 ---------------------------
 
-    <pre>
     <dependency>
       <groupId>com.jteigen.scalatest</groupId>
       <artifactId>junit4runner</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>test</scope>
-    </dependency>	
-    </pre>
+    </dependency>
 
 3. Use
 ----------------------
